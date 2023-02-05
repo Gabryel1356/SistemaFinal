@@ -1,0 +1,12 @@
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Paciente.Infraestructura\bin\Debug\net6.0\Ms.Paciente.Infraestructura.deps.json
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Paciente.Infraestructura\bin\Debug\net6.0\Ms.Paciente.Infraestructura.dll
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Paciente.Infraestructura\bin\Debug\net6.0\Ms.Paciente.Infraestructura.pdb
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Paciente.Infraestructura\obj\Debug\net6.0\Ms.Paciente.Infraestructura.csproj.AssemblyReference.cache
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Paciente.Infraestructura\obj\Debug\net6.0\Ms.Paciente.Infraestructura.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Paciente.Infraestructura\obj\Debug\net6.0\Ms.Paciente.Infraestructura.AssemblyInfoInputs.cache
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Paciente.Infraestructura\obj\Debug\net6.0\Ms.Paciente.Infraestructura.AssemblyInfo.cs
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Paciente.Infraestructura\obj\Debug\net6.0\Ms.Paciente.Infraestructura.csproj.CoreCompileInputs.cache
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Paciente.Infraestructura\obj\Debug\net6.0\Ms.Paciente.Infraestructura.dll
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Paciente.Infraestructura\obj\Debug\net6.0\refint\Ms.Paciente.Infraestructura.dll
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Paciente.Infraestructura\obj\Debug\net6.0\Ms.Paciente.Infraestructura.pdb
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Paciente.Infraestructura\obj\Debug\net6.0\ref\Ms.Paciente.Infraestructura.dll

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "xW1AKfJHrkXeASjG911IAM/xXt4zJTSoi4vE9QvzBrE=",
+  "Source": "Ms.Medico.Api",
+  "BasePath": "_content/Ms.Medico.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

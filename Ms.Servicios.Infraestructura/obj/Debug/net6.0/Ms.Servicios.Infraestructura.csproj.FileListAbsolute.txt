@@ -1,0 +1,12 @@
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Servicios.Infraestructura\bin\Debug\net6.0\Ms.Servicios.Infraestructura.deps.json
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Servicios.Infraestructura\bin\Debug\net6.0\Ms.Servicios.Infraestructura.dll
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Servicios.Infraestructura\bin\Debug\net6.0\Ms.Servicios.Infraestructura.pdb
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Servicios.Infraestructura\obj\Debug\net6.0\Ms.Servicios.Infraestructura.csproj.AssemblyReference.cache
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Servicios.Infraestructura\obj\Debug\net6.0\Ms.Servicios.Infraestructura.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Servicios.Infraestructura\obj\Debug\net6.0\Ms.Servicios.Infraestructura.AssemblyInfoInputs.cache
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Servicios.Infraestructura\obj\Debug\net6.0\Ms.Servicios.Infraestructura.AssemblyInfo.cs
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Servicios.Infraestructura\obj\Debug\net6.0\Ms.Servicios.Infraestructura.csproj.CoreCompileInputs.cache
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Servicios.Infraestructura\obj\Debug\net6.0\Ms.Servicios.Infraestructura.dll
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Servicios.Infraestructura\obj\Debug\net6.0\refint\Ms.Servicios.Infraestructura.dll
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Servicios.Infraestructura\obj\Debug\net6.0\Ms.Servicios.Infraestructura.pdb
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Servicios.Infraestructura\obj\Debug\net6.0\ref\Ms.Servicios.Infraestructura.dll
