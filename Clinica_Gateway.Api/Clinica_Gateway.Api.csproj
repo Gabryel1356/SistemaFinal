@@ -14,4 +14,8 @@
     <ProjectReference Include="..\Clinica_Gateway.Aplicacion\Clinica_Gateway.Aplicacion.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
 </Project>
