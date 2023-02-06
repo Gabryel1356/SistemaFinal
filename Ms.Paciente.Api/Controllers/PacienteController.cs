@@ -1,13 +1,10 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿
 using Microsoft.AspNetCore.Mvc;
 using MongoDB.Bson;
 using MongoDB.Driver;
 using static Ms.Paciente.Api.Routes.ApiRoutes;
-
-
 using System.Collections.Generic;
 using Ms.Paciente.Aplicacion.Paciente;
-
 using dominio = Ms.Paciente.Dominio.Entidades;
 
 namespace Ms.Paciente.Api.Controllers
@@ -41,7 +38,7 @@ namespace Ms.Paciente.Api.Controllers
             return objCliente;
         }
         [HttpPost(RoutePaciente.Create)]
-        public ActionResult<dominio.Paciente> CrearServicio([FromBody] dominio.Paciente Servicios)
+        public ActionResult<dominio.Paciente> CrearPaciente([FromBody] dominio.Paciente Servicios)
         {
             _service.Registrar(Servicios);
 
@@ -49,37 +46,39 @@ namespace Ms.Paciente.Api.Controllers
         }
 
 
-        //[HttpPut(RouteServicios.Update)]
-        //public ActionResult<dominio.Servicios> Modificar([FromBody] dominio.Servicios servicios)
-        //{
+        [HttpPut(RoutePaciente.Update)]
+        public ActionResult<dominio.Paciente> ModificarPaciente([FromBody] dominio.Paciente servicios)
+        {
 
 
-        //    var objServicio = _service.Modificar(servicios);
-
-
-
-        //    //if (objServicio != null)
-        //    //{
-        //    //    objServicio. = paciente._id;
-        //    //    objServicio.idPac = paciente.idPac;
-        //    //    objServicio.Nombre = paciente.Nombre;
-        //    //    objServicio.apepa = paciente.apepa;
-        //    //    objServicio.apema = paciente.apema;
-        //    //    objServicio.edad = paciente.edad;
-        //    //    objServicio.seguro = paciente.seguro;
-        //    //    objServicio.Fecha_ingreso = paciente.Fecha_ingreso;
-
-        //    //    _service.ReplaceOne(x => x.idPac == objServicio.idPac, objServicio);
-        //    //}
-        //}
-
-        //    return objServicio;
-        //}
+           var obj= _service.Modificar(servicios);
 
 
 
+            //if (objServicio != null)
+            //{
+            //    objServicio. = paciente._id;
+            //    objServicio.idPac = paciente.idPac;
+            //    objServicio.Nombre = paciente.Nombre;
+            //    objServicio.apepa = paciente.apepa;
+            //    objServicio.apema = paciente.apema;
+            //    objServicio.edad = paciente.edad;
+            //    objServicio.seguro = paciente.seguro;
+            //    objServicio.Fecha_ingreso = paciente.Fecha_ingreso;
 
-        [HttpDelete(RoutePaciente.Delete)]
+            //    _service.ReplaceOne(x => x.idPac == objServicio.idPac, objServicio);
+            //}
+
+            return Ok();
+        }
+
+           
+        
+
+
+
+
+    [HttpDelete(RoutePaciente.Delete)]
         public ActionResult<dominio.Paciente> EliminarCliente(int id)
         {
             _service.Eliminar(id);
