@@ -1,0 +1,6 @@
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Paciente.Api\obj\Debug\net6.0\Ms.Paciente.Api.csproj.AssemblyReference.cache
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Paciente.Api\obj\Debug\net6.0\Ms.Paciente.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Paciente.Api\obj\Debug\net6.0\Ms.Paciente.Api.AssemblyInfoInputs.cache
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Paciente.Api\obj\Debug\net6.0\Ms.Paciente.Api.AssemblyInfo.cs
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Paciente.Api\obj\Debug\net6.0\Ms.Paciente.Api.csproj.CoreCompileInputs.cache
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Paciente.Api\obj\Debug\net6.0\Ms.Paciente.Api.MvcApplicationPartsAssemblyInfo.cache

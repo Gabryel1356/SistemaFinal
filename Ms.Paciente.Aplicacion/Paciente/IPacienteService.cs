@@ -1,12 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using dominio = Ms.Paciente.Dominio.Entidades;
 
 namespace Ms.Paciente.Aplicacion.Paciente
 {
-    internal class Class1
-    {
-    }
+  
+        public interface IPacienteService
+        {
+            List<dominio.Paciente> ListarPaciente();
+            dominio.Paciente BuscarPorId(int idPac);
+            bool Registrar(dominio.Paciente Paciente);
+            bool Modificar(dominio.Paciente paciente);
+
+            void Eliminar(int idPac);
+
+
+        }
+    
 }

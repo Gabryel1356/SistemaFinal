@@ -1,0 +1,15 @@
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Servicios.Dominio\bin\Debug\net6.0\Ms.Servicios.Dominio.deps.json
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Servicios.Dominio\bin\Debug\net6.0\Ms.Servicios.Dominio.dll
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Servicios.Dominio\bin\Debug\net6.0\Ms.Servicios.Dominio.pdb
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Servicios.Dominio\bin\Debug\net6.0\Ms.Servicios.Infraestructura.dll
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Servicios.Dominio\bin\Debug\net6.0\Ms.Servicios.Infraestructura.pdb
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Servicios.Dominio\obj\Debug\net6.0\Ms.Servicios.Dominio.csproj.AssemblyReference.cache
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Servicios.Dominio\obj\Debug\net6.0\Ms.Servicios.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Servicios.Dominio\obj\Debug\net6.0\Ms.Servicios.Dominio.AssemblyInfoInputs.cache
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Servicios.Dominio\obj\Debug\net6.0\Ms.Servicios.Dominio.AssemblyInfo.cs
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Servicios.Dominio\obj\Debug\net6.0\Ms.Servicios.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Servicios.Dominio\obj\Debug\net6.0\Ms.Servicios.Dominio.csproj.CopyComplete
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Servicios.Dominio\obj\Debug\net6.0\Ms.Servicios.Dominio.dll
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Servicios.Dominio\obj\Debug\net6.0\refint\Ms.Servicios.Dominio.dll
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Servicios.Dominio\obj\Debug\net6.0\Ms.Servicios.Dominio.pdb
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Servicios.Dominio\obj\Debug\net6.0\ref\Ms.Servicios.Dominio.dll

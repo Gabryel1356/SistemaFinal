@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "h8dRMlA/BBwiA7L8xS5OWOAZAh9QdfKOG0axuznEyOs=",
+  "Source": "Clinica_Gateway.Api",
+  "BasePath": "_content/Clinica_Gateway.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

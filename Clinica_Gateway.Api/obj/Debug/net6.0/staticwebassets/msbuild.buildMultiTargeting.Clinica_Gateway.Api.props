@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Clinica_Gateway.Api.props" />
+</Project>

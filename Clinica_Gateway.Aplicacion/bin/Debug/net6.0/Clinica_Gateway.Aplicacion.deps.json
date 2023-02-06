@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Clinica_Gateway.Aplicacion/1.0.0": {
+        "runtime": {
+          "Clinica_Gateway.Aplicacion.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Clinica_Gateway.Aplicacion/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

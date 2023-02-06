@@ -6,9 +6,20 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Ms.Paciente.Dominio\Ms.Paciente.Dominio.csproj" />
-    <ProjectReference Include="..\Ms.Paciente.Infraestructura\Ms.Paciente.Infraestructura.csproj" />
-  </ItemGroup>
+
+	<ItemGroup>
+		<Compile Remove="Paciente\Read\**" />
+		<Compile Remove="Paciente\Write\**" />
+		<EmbeddedResource Remove="Paciente\Read\**" />
+		<EmbeddedResource Remove="Paciente\Write\**" />
+		<None Remove="Paciente\Read\**" />
+		<None Remove="Paciente\Write\**" />
+	</ItemGroup>
+
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Ms.Paciente.Dominio\Ms.Paciente.Dominio.csproj" />
+	  <ProjectReference Include="..\Ms.Paciente.Infraestructura\Ms.Paciente.Infraestructura.csproj" />
+	</ItemGroup>
 
 </Project>
