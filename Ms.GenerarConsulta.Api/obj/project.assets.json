@@ -224,23 +224,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Rosalin Mantari\\.nuget\\packages\\": {},
+    "C:\\Users\\Dynabook\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rosalin Mantari\\Desktop\\Tabajo_B\\SistemaClinica_del_Dr.Matalozano\\Ms.GenerarConsulta.Api\\Ms.GenerarConsulta.Api.csproj",
+      "projectUniqueName": "D:\\prueba\\SistemaFinal\\Ms.GenerarConsulta.Api\\Ms.GenerarConsulta.Api.csproj",
       "projectName": "Ms.GenerarConsulta.Api",
-      "projectPath": "C:\\Users\\Rosalin Mantari\\Desktop\\Tabajo_B\\SistemaClinica_del_Dr.Matalozano\\Ms.GenerarConsulta.Api\\Ms.GenerarConsulta.Api.csproj",
-      "packagesPath": "C:\\Users\\Rosalin Mantari\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rosalin Mantari\\Desktop\\Tabajo_B\\SistemaClinica_del_Dr.Matalozano\\Ms.GenerarConsulta.Api\\obj\\",
+      "projectPath": "D:\\prueba\\SistemaFinal\\Ms.GenerarConsulta.Api\\Ms.GenerarConsulta.Api.csproj",
+      "packagesPath": "C:\\Users\\Dynabook\\.nuget\\packages\\",
+      "outputPath": "D:\\prueba\\SistemaFinal\\Ms.GenerarConsulta.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Rosalin Mantari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Dynabook\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -291,7 +291,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

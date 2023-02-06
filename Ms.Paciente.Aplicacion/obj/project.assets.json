@@ -8590,23 +8590,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Rosalin Mantari\\.nuget\\packages\\": {},
+    "C:\\Users\\Dynabook\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rosalin Mantari\\Desktop\\Tabajo_B\\SistemaClinica_del_Dr.Matalozano\\Ms.Paciente.Aplicacion\\Ms.Paciente.Aplicacion.csproj",
+      "projectUniqueName": "D:\\prueba\\SistemaFinal\\Ms.Paciente.Aplicacion\\Ms.Paciente.Aplicacion.csproj",
       "projectName": "Ms.Paciente.Aplicacion",
-      "projectPath": "C:\\Users\\Rosalin Mantari\\Desktop\\Tabajo_B\\SistemaClinica_del_Dr.Matalozano\\Ms.Paciente.Aplicacion\\Ms.Paciente.Aplicacion.csproj",
-      "packagesPath": "C:\\Users\\Rosalin Mantari\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rosalin Mantari\\Desktop\\Tabajo_B\\SistemaClinica_del_Dr.Matalozano\\Ms.Paciente.Aplicacion\\obj\\",
+      "projectPath": "D:\\prueba\\SistemaFinal\\Ms.Paciente.Aplicacion\\Ms.Paciente.Aplicacion.csproj",
+      "packagesPath": "C:\\Users\\Dynabook\\.nuget\\packages\\",
+      "outputPath": "D:\\prueba\\SistemaFinal\\Ms.Paciente.Aplicacion\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Rosalin Mantari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Dynabook\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -8621,11 +8621,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Rosalin Mantari\\Desktop\\Tabajo_B\\SistemaClinica_del_Dr.Matalozano\\Ms.Paciente.Dominio\\Ms.Paciente.Dominio.csproj": {
-              "projectPath": "C:\\Users\\Rosalin Mantari\\Desktop\\Tabajo_B\\SistemaClinica_del_Dr.Matalozano\\Ms.Paciente.Dominio\\Ms.Paciente.Dominio.csproj"
+            "D:\\prueba\\SistemaFinal\\Ms.Paciente.Dominio\\Ms.Paciente.Dominio.csproj": {
+              "projectPath": "D:\\prueba\\SistemaFinal\\Ms.Paciente.Dominio\\Ms.Paciente.Dominio.csproj"
             },
-            "C:\\Users\\Rosalin Mantari\\Desktop\\Tabajo_B\\SistemaClinica_del_Dr.Matalozano\\Ms.Paciente.Infraestructura\\Ms.Paciente.Infraestructura.csproj": {
-              "projectPath": "C:\\Users\\Rosalin Mantari\\Desktop\\Tabajo_B\\SistemaClinica_del_Dr.Matalozano\\Ms.Paciente.Infraestructura\\Ms.Paciente.Infraestructura.csproj"
+            "D:\\prueba\\SistemaFinal\\Ms.Paciente.Infraestructura\\Ms.Paciente.Infraestructura.csproj": {
+              "projectPath": "D:\\prueba\\SistemaFinal\\Ms.Paciente.Infraestructura\\Ms.Paciente.Infraestructura.csproj"
             }
           }
         }
@@ -8655,7 +8655,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

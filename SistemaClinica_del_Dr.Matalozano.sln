@@ -9,9 +9,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API Gateway", "API Gateway"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MS", "MS", "{F01458B4-59F9-4799-A6B7-460CE0007BE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinica_Gateway.Api", "Clinica_Gateway.Api\Clinica_Gateway.Api.csproj", "{1101EB4B-11E7-4460-A037-E7407F3903B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clinica_Gateway.Api", "Clinica_Gateway.Api\Clinica_Gateway.Api.csproj", "{1101EB4B-11E7-4460-A037-E7407F3903B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinica_Gateway.Aplicacion", "Clinica_Gateway.Aplicacion\Clinica_Gateway.Aplicacion.csproj", "{6579E52A-D1B6-4F8B-9476-45B98475D8F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clinica_Gateway.Aplicacion", "Clinica_Gateway.Aplicacion\Clinica_Gateway.Aplicacion.csproj", "{6579E52A-D1B6-4F8B-9476-45B98475D8F7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ms_Paciente", "Ms_Paciente", "{388A4CE3-52FE-43E3-AA18-D262652142CC}"
 EndProject
@@ -21,37 +21,39 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ms_GenerarConsulta", "Ms_Ge
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ms_Servicios", "Ms_Servicios", "{95898B9F-24BA-4012-BF44-E13EE21D7A6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ms.Paciente.Api", "Ms.Paciente.Api\Ms.Paciente.Api.csproj", "{37F54E1F-9A5C-40A7-B8AC-014EF3DC7213}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ms.Paciente.Api", "Ms.Paciente.Api\Ms.Paciente.Api.csproj", "{37F54E1F-9A5C-40A7-B8AC-014EF3DC7213}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ms.Servicios.Api", "Ms.Servicios.Api\Ms.Servicios.Api.csproj", "{26252CF5-55E9-4554-9F73-AFDD9E5FD353}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ms.Servicios.Api", "Ms.Servicios.Api\Ms.Servicios.Api.csproj", "{26252CF5-55E9-4554-9F73-AFDD9E5FD353}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ms.Medico.Api", "Ms.Medico.Api\Ms.Medico.Api.csproj", "{E0145109-CE91-4C1C-B8D0-02A39E8CBC78}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ms.Medico.Api", "Ms.Medico.Api\Ms.Medico.Api.csproj", "{E0145109-CE91-4C1C-B8D0-02A39E8CBC78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ms.GenerarConsulta.Api", "Ms.GenerarConsulta.Api\Ms.GenerarConsulta.Api.csproj", "{AB2F40CE-505A-4920-BF65-8BB99643A191}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ms.GenerarConsulta.Api", "Ms.GenerarConsulta.Api\Ms.GenerarConsulta.Api.csproj", "{AB2F40CE-505A-4920-BF65-8BB99643A191}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ms.GenerarConsulta.Aplicacion", "Ms.GenerarConsulta.Aplicacion\Ms.GenerarConsulta.Aplicacion.csproj", "{B3ADEDD1-EE21-43DF-AAC0-C531044580D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ms.GenerarConsulta.Aplicacion", "Ms.GenerarConsulta.Aplicacion\Ms.GenerarConsulta.Aplicacion.csproj", "{B3ADEDD1-EE21-43DF-AAC0-C531044580D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ms.GenerarConsulta.Dominio", "Ms.GenerarConsulta.Dominio\Ms.GenerarConsulta.Dominio.csproj", "{A2D0F201-BF71-4B84-BD86-B479DD89FC1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ms.GenerarConsulta.Dominio", "Ms.GenerarConsulta.Dominio\Ms.GenerarConsulta.Dominio.csproj", "{A2D0F201-BF71-4B84-BD86-B479DD89FC1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ms.GenerarConsulta.Infraestructura", "Ms.GenerarConsulta.Infraestructura\Ms.GenerarConsulta.Infraestructura.csproj", "{EA1FA2E1-0976-4972-BF07-5BD8F1574FC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ms.GenerarConsulta.Infraestructura", "Ms.GenerarConsulta.Infraestructura\Ms.GenerarConsulta.Infraestructura.csproj", "{EA1FA2E1-0976-4972-BF07-5BD8F1574FC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ms.Medico.Aplicacion", "Ms.Medico.Aplicacion\Ms.Medico.Aplicacion.csproj", "{99509A21-3B67-407D-BDB6-FE33DB2658A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ms.Medico.Aplicacion", "Ms.Medico.Aplicacion\Ms.Medico.Aplicacion.csproj", "{99509A21-3B67-407D-BDB6-FE33DB2658A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ms.Medico.Dominio", "Ms.Medico.Dominio\Ms.Medico.Dominio.csproj", "{FB6CE0E6-4934-405C-9785-14A7E7F84BD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ms.Medico.Dominio", "Ms.Medico.Dominio\Ms.Medico.Dominio.csproj", "{FB6CE0E6-4934-405C-9785-14A7E7F84BD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ms.Medico.Infraestructura", "Ms.Medico.Infraestructura\Ms.Medico.Infraestructura.csproj", "{809BF779-02E1-4F68-8848-D2C6003D2D2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ms.Medico.Infraestructura", "Ms.Medico.Infraestructura\Ms.Medico.Infraestructura.csproj", "{809BF779-02E1-4F68-8848-D2C6003D2D2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ms.Paciente.Aplicacion", "Ms.Paciente.Aplicacion\Ms.Paciente.Aplicacion.csproj", "{093A9DBB-13BA-4717-9435-99FB360D76B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ms.Paciente.Aplicacion", "Ms.Paciente.Aplicacion\Ms.Paciente.Aplicacion.csproj", "{093A9DBB-13BA-4717-9435-99FB360D76B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ms.Paciente.Dominio", "Ms.Paciente.Dominio\Ms.Paciente.Dominio.csproj", "{F42F01DF-9B59-43AC-BD37-7E927B119C58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ms.Paciente.Dominio", "Ms.Paciente.Dominio\Ms.Paciente.Dominio.csproj", "{F42F01DF-9B59-43AC-BD37-7E927B119C58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ms.Paciente.Infraestructura", "Ms.Paciente.Infraestructura\Ms.Paciente.Infraestructura.csproj", "{099F0AD7-84AB-46BD-BE4B-50A1DDD65282}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ms.Paciente.Infraestructura", "Ms.Paciente.Infraestructura\Ms.Paciente.Infraestructura.csproj", "{099F0AD7-84AB-46BD-BE4B-50A1DDD65282}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ms.Servicios.Aplicacion", "Ms.Servicios.Aplicacion\Ms.Servicios.Aplicacion.csproj", "{26F65D6C-0F30-420C-9401-B9CB3B748B32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ms.Servicios.Aplicacion", "Ms.Servicios.Aplicacion\Ms.Servicios.Aplicacion.csproj", "{26F65D6C-0F30-420C-9401-B9CB3B748B32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ms.Servicios.Dominio", "Ms.Servicios.Dominio\Ms.Servicios.Dominio.csproj", "{8A167D5A-CBB4-463B-A9CB-7DC780234450}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ms.Servicios.Dominio", "Ms.Servicios.Dominio\Ms.Servicios.Dominio.csproj", "{8A167D5A-CBB4-463B-A9CB-7DC780234450}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ms.Servicios.Infraestructura", "Ms.Servicios.Infraestructura\Ms.Servicios.Infraestructura.csproj", "{C60294D5-C110-4AD4-8445-994E292230F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ms.Servicios.Infraestructura", "Ms.Servicios.Infraestructura\Ms.Servicios.Infraestructura.csproj", "{C60294D5-C110-4AD4-8445-994E292230F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "xd", "xd", "{0D47DFC2-20C7-4611-A863-70B64C8CDEFC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -160,6 +162,7 @@ Global
 		{26F65D6C-0F30-420C-9401-B9CB3B748B32} = {95898B9F-24BA-4012-BF44-E13EE21D7A6B}
 		{8A167D5A-CBB4-463B-A9CB-7DC780234450} = {95898B9F-24BA-4012-BF44-E13EE21D7A6B}
 		{C60294D5-C110-4AD4-8445-994E292230F4} = {95898B9F-24BA-4012-BF44-E13EE21D7A6B}
+		{0D47DFC2-20C7-4611-A863-70B64C8CDEFC} = {F6A9DB99-D3EE-4AB2-8970-35BBDE43D8A9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B243E7B0-7325-4EBB-981B-1C4A08E6866B}

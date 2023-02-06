@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "80wFQOPnBpcP0/wg5JZU/dxzy8fHumetz9KzqANs862ItAmkUy5b8NIw8O74FSaMaitpzJkk+SP8wrEl1ie46Q==",
+  "success": true,
+  "projectFilePath": "D:\\prueba\\SistemaFinal\\Clinica_Gateway.Api\\Clinica_Gateway.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dynabook\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Dynabook\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Dynabook\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\Dynabook\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\Dynabook\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\Dynabook\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
