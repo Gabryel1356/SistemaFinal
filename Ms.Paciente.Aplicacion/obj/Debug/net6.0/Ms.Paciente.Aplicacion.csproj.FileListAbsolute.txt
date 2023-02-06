@@ -1,8 +1,3 @@
-C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Paciente.Aplicacion\obj\Debug\net6.0\Ms.Paciente.Aplicacion.csproj.AssemblyReference.cache
-C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Paciente.Aplicacion\obj\Debug\net6.0\Ms.Paciente.Aplicacion.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Paciente.Aplicacion\obj\Debug\net6.0\Ms.Paciente.Aplicacion.AssemblyInfoInputs.cache
-C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Paciente.Aplicacion\obj\Debug\net6.0\Ms.Paciente.Aplicacion.AssemblyInfo.cs
-C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Paciente.Aplicacion\obj\Debug\net6.0\Ms.Paciente.Aplicacion.csproj.CoreCompileInputs.cache
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Paciente.Aplicacion\bin\Debug\net6.0\Ms.Paciente.Aplicacion.deps.json
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Paciente.Aplicacion\bin\Debug\net6.0\Ms.Paciente.Aplicacion.dll
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Paciente.Aplicacion\bin\Debug\net6.0\Ms.Paciente.Aplicacion.pdb
@@ -10,6 +5,11 @@ C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Pa
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Paciente.Aplicacion\bin\Debug\net6.0\Ms.Paciente.Infraestructura.dll
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Paciente.Aplicacion\bin\Debug\net6.0\Ms.Paciente.Dominio.pdb
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Paciente.Aplicacion\bin\Debug\net6.0\Ms.Paciente.Infraestructura.pdb
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Paciente.Aplicacion\obj\Debug\net6.0\Ms.Paciente.Aplicacion.csproj.AssemblyReference.cache
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Paciente.Aplicacion\obj\Debug\net6.0\Ms.Paciente.Aplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Paciente.Aplicacion\obj\Debug\net6.0\Ms.Paciente.Aplicacion.AssemblyInfoInputs.cache
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Paciente.Aplicacion\obj\Debug\net6.0\Ms.Paciente.Aplicacion.AssemblyInfo.cs
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Paciente.Aplicacion\obj\Debug\net6.0\Ms.Paciente.Aplicacion.csproj.CoreCompileInputs.cache
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Paciente.Aplicacion\obj\Debug\net6.0\Ms.Paciente.Aplicacion.csproj.CopyComplete
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Paciente.Aplicacion\obj\Debug\net6.0\Ms.Paciente.Aplicacion.dll
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Paciente.Aplicacion\obj\Debug\net6.0\refint\Ms.Paciente.Aplicacion.dll

@@ -1,11 +1,14 @@
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Medico.Dominio\bin\Debug\net6.0\Ms.Medico.Dominio.deps.json
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Medico.Dominio\bin\Debug\net6.0\Ms.Medico.Dominio.dll
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Medico.Dominio\bin\Debug\net6.0\Ms.Medico.Dominio.pdb
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Medico.Dominio\bin\Debug\net6.0\Ms.Medico.Infraestructura.dll
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Medico.Dominio\bin\Debug\net6.0\Ms.Medico.Infraestructura.pdb
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Medico.Dominio\obj\Debug\net6.0\Ms.Medico.Dominio.csproj.AssemblyReference.cache
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Medico.Dominio\obj\Debug\net6.0\Ms.Medico.Dominio.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Medico.Dominio\obj\Debug\net6.0\Ms.Medico.Dominio.AssemblyInfoInputs.cache
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Medico.Dominio\obj\Debug\net6.0\Ms.Medico.Dominio.AssemblyInfo.cs
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Medico.Dominio\obj\Debug\net6.0\Ms.Medico.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Medico.Dominio\obj\Debug\net6.0\Ms.Medico.Dominio.csproj.CopyComplete
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Medico.Dominio\obj\Debug\net6.0\Ms.Medico.Dominio.dll
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Medico.Dominio\obj\Debug\net6.0\refint\Ms.Medico.Dominio.dll
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Medico.Dominio\obj\Debug\net6.0\Ms.Medico.Dominio.pdb
