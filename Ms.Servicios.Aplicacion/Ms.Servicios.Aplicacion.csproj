@@ -6,4 +6,20 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+
+	<ItemGroup>
+		<Compile Remove="Servicios\Read\**" />
+		<Compile Remove="Servicios\Write\**" />
+		<EmbeddedResource Remove="Servicios\Read\**" />
+		<EmbeddedResource Remove="Servicios\Write\**" />
+		<None Remove="Servicios\Read\**" />
+		<None Remove="Servicios\Write\**" />
+	</ItemGroup>
+	
+		
+  <ItemGroup>
+    <ProjectReference Include="..\Ms.Servicios.Dominio\Ms.Servicios.Dominio.csproj" />
+    <ProjectReference Include="..\Ms.Servicios.Infraestructura\Ms.Servicios.Infraestructura.csproj" />
+  </ItemGroup>
+
 </Project>

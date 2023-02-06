@@ -1,3 +1,10 @@
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Medico.Api\obj\Debug\net6.0\Ms.Medico.Api.csproj.AssemblyReference.cache
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Medico.Api\obj\Debug\net6.0\Ms.Medico.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Medico.Api\obj\Debug\net6.0\Ms.Medico.Api.AssemblyInfoInputs.cache
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Medico.Api\obj\Debug\net6.0\Ms.Medico.Api.AssemblyInfo.cs
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Medico.Api\obj\Debug\net6.0\Ms.Medico.Api.csproj.CoreCompileInputs.cache
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Medico.Api\obj\Debug\net6.0\Ms.Medico.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Medico.Api\obj\Debug\net6.0\Ms.Medico.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Medico.Api\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Medico.Api\bin\Debug\net6.0\appsettings.json
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Medico.Api\bin\Debug\net6.0\Ms.Medico.Api.exe
@@ -9,13 +16,6 @@ C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Me
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Medico.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Medico.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Medico.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Medico.Api\obj\Debug\net6.0\Ms.Medico.Api.csproj.AssemblyReference.cache
-C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Medico.Api\obj\Debug\net6.0\Ms.Medico.Api.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Medico.Api\obj\Debug\net6.0\Ms.Medico.Api.AssemblyInfoInputs.cache
-C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Medico.Api\obj\Debug\net6.0\Ms.Medico.Api.AssemblyInfo.cs
-C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Medico.Api\obj\Debug\net6.0\Ms.Medico.Api.csproj.CoreCompileInputs.cache
-C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Medico.Api\obj\Debug\net6.0\Ms.Medico.Api.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Medico.Api\obj\Debug\net6.0\Ms.Medico.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Medico.Api\obj\Debug\net6.0\staticwebassets\msbuild.Ms.Medico.Api.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Medico.Api\obj\Debug\net6.0\staticwebassets\msbuild.build.Ms.Medico.Api.props
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Medico.Api\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Ms.Medico.Api.props

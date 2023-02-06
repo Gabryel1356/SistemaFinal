@@ -1,83 +1,36 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
+using Ms.Servicios.Aplicacion.Servicios;
+using static Ms.Servicios.Api.Routes.ApiRoutes;
+using dominio = Ms.Servicios.Dominio.Entidades;
 
 namespace Ms.Servicios.Api.Controllers
 {
-    public class ServiciosController : Controller
+    [ApiController]
+    public class ServiciosController : ControllerBase
     {
-        // GET: ServiciosController
-        public ActionResult Index()
+
+
+        private readonly IServiciosService _service;
+
+
+        public ServiciosController(IServiciosService service)
         {
-            return View();
+            _service = service;
+
         }
 
-        // GET: ServiciosController/Details/5
-        public ActionResult Details(int id)
+        [HttpGet(RouteServicios.GetAll)]
+        public IEnumerable<dominio.Servicios> ListarServicios()
         {
-            return View();
+
+            var listaServicios = _service.ListarServicios();
+            return listaServicios;
         }
 
-        // GET: ServiciosController/Create
-        public ActionResult Create()
-        {
-            return View();
-        }
 
-        // POST: ServiciosController/Create
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
 
-        // GET: ServiciosController/Edit/5
-        public ActionResult Edit(int id)
-        {
-            return View();
-        }
 
-        // POST: ServiciosController/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
 
-        // GET: ServiciosController/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        // POST: ServiciosController/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
     }
 }

@@ -9,6 +9,8 @@ C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clini
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\bin\Debug\net6.0\Clinica_Gateway.Aplicacion.dll
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\bin\Debug\net6.0\Clinica_Gateway.Aplicacion.pdb
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\obj\Debug\net6.0\Clinica_Gateway.Api.csproj.AssemblyReference.cache
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\obj\Debug\net6.0\Clinica_Gateway.Api.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\obj\Debug\net6.0\Clinica_Gateway.Api.AssemblyInfoInputs.cache
@@ -30,5 +32,3 @@ C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clini
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\obj\Debug\net6.0\Clinica_Gateway.Api.pdb
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\obj\Debug\net6.0\Clinica_Gateway.Api.genruntimeconfig.cache
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\obj\Debug\net6.0\ref\Clinica_Gateway.Api.dll
-C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\bin\Debug\net6.0\Clinica_Gateway.Aplicacion.dll
-C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\bin\Debug\net6.0\Clinica_Gateway.Aplicacion.pdb
