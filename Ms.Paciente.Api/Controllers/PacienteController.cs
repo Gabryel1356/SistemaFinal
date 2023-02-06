@@ -1,83 +1,91 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using MongoDB.Bson;
+using MongoDB.Driver;
+using static Ms.Paciente.Api.Routes.ApiRoutes;
+
+
+using System.Collections.Generic;
+using Ms.Paciente.Aplicacion.Paciente;
+
+using dominio = Ms.Paciente.Dominio.Entidades;
 
 namespace Ms.Paciente.Api.Controllers
 {
-    public class PacienteController : Controller
+    [ApiController]
+    public class PacienteController : ControllerBase
     {
-        // GET: PacienteController
-        public ActionResult Index()
+        private readonly IPacienteService _service;
+
+
+        public PacienteController(IPacienteService service)
         {
-            return View();
+            _service = service;
         }
 
-        // GET: PacienteController/Details/5
-        public ActionResult Details(int id)
+        [HttpGet(RoutePaciente.GetAll)]
+        public IEnumerable<dominio.Paciente> ListarServicios()
         {
-            return View();
+
+            var listaServicios = _service.ListarPaciente();
+            return listaServicios;
         }
 
-        // GET: PacienteController/Create
-        public ActionResult Create()
+
+
+        [HttpGet(RoutePaciente.GetById)]
+        public dominio.Paciente BuscarCliente(int id)
         {
-            return View();
+            var objCliente = _service.BuscarPorId(id);
+
+            return objCliente;
+        }
+        [HttpPost(RoutePaciente.Create)]
+        public ActionResult<dominio.Paciente> CrearServicio([FromBody] dominio.Paciente Servicios)
+        {
+            _service.Registrar(Servicios);
+
+            return Ok();
         }
 
-        // POST: PacienteController/Create
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+
+        //[HttpPut(RouteServicios.Update)]
+        //public ActionResult<dominio.Servicios> Modificar([FromBody] dominio.Servicios servicios)
+        //{
+
+
+        //    var objServicio = _service.Modificar(servicios);
+
+
+
+        //    //if (objServicio != null)
+        //    //{
+        //    //    objServicio. = paciente._id;
+        //    //    objServicio.idPac = paciente.idPac;
+        //    //    objServicio.Nombre = paciente.Nombre;
+        //    //    objServicio.apepa = paciente.apepa;
+        //    //    objServicio.apema = paciente.apema;
+        //    //    objServicio.edad = paciente.edad;
+        //    //    objServicio.seguro = paciente.seguro;
+        //    //    objServicio.Fecha_ingreso = paciente.Fecha_ingreso;
+
+        //    //    _service.ReplaceOne(x => x.idPac == objServicio.idPac, objServicio);
+        //    //}
+        //}
+
+        //    return objServicio;
+        //}
+
+
+
+
+        [HttpDelete(RoutePaciente.Delete)]
+        public ActionResult<dominio.Paciente> EliminarCliente(int id)
         {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
+            _service.Eliminar(id);
+
+            return Ok(id);
         }
 
-        // GET: PacienteController/Edit/5
-        public ActionResult Edit(int id)
-        {
-            return View();
-        }
-
-        // POST: PacienteController/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: PacienteController/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        // POST: PacienteController/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
     }
 }

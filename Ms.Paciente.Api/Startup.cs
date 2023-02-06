@@ -28,7 +28,7 @@ namespace Ms.Paciente.Api
 
             services.AddSwaggerGen();
 
-            //services.AddAplicacion(Configuration);
+            services.AddAplicacion(Configuration);
 
         }
 
