@@ -1,11 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using static Clinica_Gateway.Api.Routes.ApiRoutes;
-using System.Collections.Generic;
-
-using Pacientes =Clinica_Gateway.Api.PacienteClient;
+using Pacientes =Clinica_Gateway.Aplicacion.PacienteClient;
 using Clinica_Gateway.Aplicacion.Pacientes.Request;
-using Clinica_Gateway.Api.PacienteClient;
+
 
 namespace Clinica_Gateway.Api.Controllers
 {
@@ -13,18 +12,19 @@ namespace Clinica_Gateway.Api.Controllers
     [ApiController]
     public class PacienteController : ControllerBase
     {
+        private readonly Pacientes.Client _pacientesClient;
 
-        public readonly Pacientes.Client _client;
+     
 
-        public PacienteController(Client client)
+        public PacienteController(Pacientes.Client pacientesClient)
         {
-            _client = client;
+            _pacientesClient = pacientesClient;
         }
 
         [HttpGet(RoutePaciente.GetAll)]
         public ICollection<Pacientes.Paciente> ListarPaciente()
         {
-            var ListarPacientes = _client.ApiV1PacienteAllAsync().Result;
+            var ListarPacientes = _pacientesClient.ApiV1PacienteAllAsync().Result;
             return ListarPacientes;
         }
 

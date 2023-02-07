@@ -45,6 +45,4 @@ C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clini
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\obj\Debug\net6.0\Clinica_Gateway.Api.pdb
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\obj\Debug\net6.0\Clinica_Gateway.Api.genruntimeconfig.cache
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\obj\Debug\net6.0\ref\Clinica_Gateway.Api.dll
-C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\bin\Debug\net6.0\Connected Services\PacienteClient\ConnectedService.json
-C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\bin\Debug\net6.0\Connected Services\PacienteClient\PacienteClient.nswag.json
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\obj\Debug\net6.0\Clinica_Gateway.Api.MvcApplicationPartsAssemblyInfo.cs

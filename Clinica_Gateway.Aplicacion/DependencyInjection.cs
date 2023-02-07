@@ -30,7 +30,7 @@ namespace Clinica_Gateway.Aplicacion
 
             #region Cliente Ms Productos
 
-            services.AddHttpClient("MsProductos", client =>
+            services.AddHttpClient("Ms_Paciente", client =>
             {
                 client.BaseAddress = new Uri(msSettings.PacienteUrl);
             });
