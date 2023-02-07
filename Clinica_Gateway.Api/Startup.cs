@@ -33,7 +33,7 @@ namespace Clinica_Gateway.Api
        
             services.AddSwaggerGen();
 
-   
+            services.AddAplicacion(Configuration);
         }
 
       

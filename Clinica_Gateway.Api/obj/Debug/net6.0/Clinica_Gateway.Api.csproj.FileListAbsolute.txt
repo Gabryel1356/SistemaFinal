@@ -1,3 +1,9 @@
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\obj\Debug\net6.0\Clinica_Gateway.Api.csproj.AssemblyReference.cache
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\obj\Debug\net6.0\Clinica_Gateway.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\obj\Debug\net6.0\Clinica_Gateway.Api.AssemblyInfoInputs.cache
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\obj\Debug\net6.0\Clinica_Gateway.Api.AssemblyInfo.cs
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\obj\Debug\net6.0\Clinica_Gateway.Api.csproj.CoreCompileInputs.cache
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\obj\Debug\net6.0\Clinica_Gateway.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\bin\Debug\net6.0\appsettings.json
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\bin\Debug\net6.0\Clinica_Gateway.Api.exe
@@ -5,19 +11,26 @@ C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clini
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\bin\Debug\net6.0\Clinica_Gateway.Api.runtimeconfig.json
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\bin\Debug\net6.0\Clinica_Gateway.Api.dll
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\bin\Debug\net6.0\Clinica_Gateway.Api.pdb
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\bin\Debug\net6.0\MediatR.dll
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\bin\Debug\net6.0\MediatR.Contracts.dll
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\bin\Debug\net6.0\Microsoft.Extensions.Http.dll
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\bin\Debug\net6.0\Clinica_Gateway.Aplicacion.dll
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\bin\Debug\net6.0\Clinica_Gateway.Aplicacion.pdb
-C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\obj\Debug\net6.0\Clinica_Gateway.Api.csproj.AssemblyReference.cache
-C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\obj\Debug\net6.0\Clinica_Gateway.Api.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\obj\Debug\net6.0\Clinica_Gateway.Api.AssemblyInfoInputs.cache
-C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\obj\Debug\net6.0\Clinica_Gateway.Api.AssemblyInfo.cs
-C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\obj\Debug\net6.0\Clinica_Gateway.Api.csproj.CoreCompileInputs.cache
-C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\obj\Debug\net6.0\Clinica_Gateway.Api.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\obj\Debug\net6.0\Clinica_Gateway.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\obj\Debug\net6.0\staticwebassets\msbuild.Clinica_Gateway.Api.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\obj\Debug\net6.0\staticwebassets\msbuild.build.Clinica_Gateway.Api.props
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Clinica_Gateway.Api.props
@@ -32,3 +45,6 @@ C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clini
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\obj\Debug\net6.0\Clinica_Gateway.Api.pdb
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\obj\Debug\net6.0\Clinica_Gateway.Api.genruntimeconfig.cache
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\obj\Debug\net6.0\ref\Clinica_Gateway.Api.dll
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\bin\Debug\net6.0\Connected Services\PacienteClient\ConnectedService.json
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\bin\Debug\net6.0\Connected Services\PacienteClient\PacienteClient.nswag.json
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Clinica_Gateway.Api\obj\Debug\net6.0\Clinica_Gateway.Api.MvcApplicationPartsAssemblyInfo.cs

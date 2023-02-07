@@ -1,31 +1,58 @@
 ﻿{
-  "$schema": "https://json.schemastore.org/launchsettings.json",
+
+  //"profiles": {
+  //  "Ms.Paciente.Api": {
+  //    "commandName": "Project",
+  //    "dotnetRunMessages": true,
+  //    "launchBrowser": true,
+  //    "launchUrl": "swagger",
+  //    "applicationUrl": "https://localhost:50005",
+  //    "environmentVariables": {
+  //      "ASPNETCORE_ENVIRONMENT": "Development"
+  //    }
+  //  },
+  //  "IIS Express": {
+  //    "commandName": "IISExpress",
+  //    "launchBrowser": true,
+  //    "launchUrl": "swagger",
+  //    "environmentVariables": {
+  //      "ASPNETCORE_ENVIRONMENT": "Development"
+  //    }
+  //  }
+  //},
+
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "ancmHostingModel": "InProcess"
+    }
+  },
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:13883",
-      "sslPort": 44392
-    }
-  },
-  "profiles": {
-    "Ms.Paciente.Api": {
-      "commandName": "Project",
-      "dotnetRunMessages": true,
-      "launchBrowser": true,
-      "launchUrl": "swagger",
-      "applicationUrl": "https://localhost:7140;http://localhost:5240",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      }
-    },
-    "IIS Express": {
-      "commandName": "IISExpress",
-      "launchBrowser": true,
-      "launchUrl": "swagger",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      }
+      "applicationUrl": "http://localhost:20025/",
+      "sslPort": 0
     }
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

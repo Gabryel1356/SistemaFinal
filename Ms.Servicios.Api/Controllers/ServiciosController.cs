@@ -79,9 +79,6 @@ namespace Ms.Servicios.Api.Controllers
 
 
 
-
-
-
         [HttpDelete(RouteServicios.Delete)]
         public ActionResult<dominio.Servicios > EliminarCliente(int id)
         {

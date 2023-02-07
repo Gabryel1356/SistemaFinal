@@ -22,7 +22,7 @@ namespace Ms.Paciente.Api.Controllers
 
 
         [HttpGet(RoutePaciente.GetAll)]
-        public IEnumerable<dominio.Paciente> ListarServicios()
+        public IEnumerable<dominio.Paciente> ListarPaciente()
         {
 
             var listaServicios = _service.ListarPaciente();
