@@ -30,9 +30,6 @@ namespace Ms.Paciente.Api.Controllers
         }
 
 
-
-
-
         [HttpGet(RoutePaciente.GetById)]
         public dominio.Paciente BuscarCliente(int id)
         {

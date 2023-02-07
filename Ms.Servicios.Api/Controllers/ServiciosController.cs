@@ -41,38 +41,43 @@ namespace Ms.Servicios.Api.Controllers
         [HttpPost(RouteServicios.Create)]
         public ActionResult<dominio.Servicios> CrearServicio([FromBody] dominio.Servicios Servicios)
         {
-            _service.Registrar(Servicios);
 
-            return Ok();
+            try
+            {
+
+
+                _service.Registrar(Servicios);
+
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+
+
+
+        }
+
+        [HttpPut(RouteServicios.Update)]
+        public ActionResult<dominio.Servicios> Modificar([FromBody] dominio.Servicios Servicios)
+        {
+            try
+            {
+
+                var result = _service.Modificar(Servicios);
+
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+
+
         }
 
 
-        //[HttpPut(RouteServicios.Update)]
-        //public ActionResult<dominio.Servicios> Modificar([FromBody] dominio.Servicios servicios)
-        //{
-
-
-        //    var objServicio = _service.Modificar(servicios);
-
-
-
-        //    //if (objServicio != null)
-        //    //{
-        //    //    objServicio. = paciente._id;
-        //    //    objServicio.idPac = paciente.idPac;
-        //    //    objServicio.Nombre = paciente.Nombre;
-        //    //    objServicio.apepa = paciente.apepa;
-        //    //    objServicio.apema = paciente.apema;
-        //    //    objServicio.edad = paciente.edad;
-        //    //    objServicio.seguro = paciente.seguro;
-        //    //    objServicio.Fecha_ingreso = paciente.Fecha_ingreso;
-
-        //    //    _service.ReplaceOne(x => x.idPac == objServicio.idPac, objServicio);
-        //    //}
-        //}
-
-        //    return objServicio;
-        //}
 
 
 
@@ -80,9 +85,20 @@ namespace Ms.Servicios.Api.Controllers
         [HttpDelete(RouteServicios.Delete)]
         public ActionResult<dominio.Servicios > EliminarCliente(int id)
         {
-            _service.Eliminar(id);
 
-            return Ok(id);
+            try
+            {
+
+                _service.Eliminar(id);
+
+                return Ok(id);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+
+           
         }
 
 

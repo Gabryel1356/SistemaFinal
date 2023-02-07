@@ -45,8 +45,28 @@ namespace Ms.Servicios.Aplicacion.Servicios
 
         public bool Modificar(dominio.Servicios servicios)
         {
-            throw new NotImplementedException();
+
+            servicios.esEliminado = false;
+            servicios.fechaModificacion = DateTime.Now;
+            servicios.esActivo = true;
+
+            var filter = Builders<dominio.Servicios>.Filter.Eq(c => c.idServicios, servicios.idServicios);
+
+            var update = Builders<dominio.Servicios>.Update
+
+                .Set(c => c.idServicios, servicios.idServicios)
+                .Set(c => c.tiposervcio, servicios.tiposervcio);
+                
+
+            var result = _serviciosT.UpdateOneAsync(filter, update);
+
+
+
+            return true;
         }
+
+
+
 
         public void Eliminar(int idServicios)
         {
