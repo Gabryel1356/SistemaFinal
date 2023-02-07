@@ -10,3 +10,15 @@ C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Me
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Medico.Infraestructura\obj\Debug\net6.0\refint\Ms.Medico.Infraestructura.dll
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Medico.Infraestructura\obj\Debug\net6.0\Ms.Medico.Infraestructura.pdb
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Medico.Infraestructura\obj\Debug\net6.0\ref\Ms.Medico.Infraestructura.dll
+D:\prueba\Nueva carpeta\SistemaFinal\Ms.Medico.Infraestructura\bin\Debug\net6.0\Ms.Medico.Infraestructura.deps.json
+D:\prueba\Nueva carpeta\SistemaFinal\Ms.Medico.Infraestructura\bin\Debug\net6.0\Ms.Medico.Infraestructura.dll
+D:\prueba\Nueva carpeta\SistemaFinal\Ms.Medico.Infraestructura\bin\Debug\net6.0\Ms.Medico.Infraestructura.pdb
+D:\prueba\Nueva carpeta\SistemaFinal\Ms.Medico.Infraestructura\obj\Debug\net6.0\Ms.Medico.Infraestructura.csproj.AssemblyReference.cache
+D:\prueba\Nueva carpeta\SistemaFinal\Ms.Medico.Infraestructura\obj\Debug\net6.0\Ms.Medico.Infraestructura.GeneratedMSBuildEditorConfig.editorconfig
+D:\prueba\Nueva carpeta\SistemaFinal\Ms.Medico.Infraestructura\obj\Debug\net6.0\Ms.Medico.Infraestructura.AssemblyInfoInputs.cache
+D:\prueba\Nueva carpeta\SistemaFinal\Ms.Medico.Infraestructura\obj\Debug\net6.0\Ms.Medico.Infraestructura.AssemblyInfo.cs
+D:\prueba\Nueva carpeta\SistemaFinal\Ms.Medico.Infraestructura\obj\Debug\net6.0\Ms.Medico.Infraestructura.csproj.CoreCompileInputs.cache
+D:\prueba\Nueva carpeta\SistemaFinal\Ms.Medico.Infraestructura\obj\Debug\net6.0\Ms.Medico.Infraestructura.dll
+D:\prueba\Nueva carpeta\SistemaFinal\Ms.Medico.Infraestructura\obj\Debug\net6.0\refint\Ms.Medico.Infraestructura.dll
+D:\prueba\Nueva carpeta\SistemaFinal\Ms.Medico.Infraestructura\obj\Debug\net6.0\Ms.Medico.Infraestructura.pdb
+D:\prueba\Nueva carpeta\SistemaFinal\Ms.Medico.Infraestructura\obj\Debug\net6.0\ref\Ms.Medico.Infraestructura.dll

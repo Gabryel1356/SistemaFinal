@@ -10,4 +10,12 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Ms.Medico.Aplicacion\Ms.Medico.Aplicacion.csproj" />
+    <ProjectReference Include="..\Ms.Medico.Dominio\Ms.Medico.Dominio.csproj" />
+    <ProjectReference Include="..\Ms.Medico.Infraestructura\Ms.Medico.Infraestructura.csproj" />
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="https://json.schemastore.org/appveyor.json" /></VisualStudio></ProjectExtensions>
+
 </Project>

@@ -1,83 +1,89 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using MongoDB.Bson;
+using MongoDB.Driver;
+using static Ms.Medico.Api.Routes.ApiRoutes;
+using System.Collections.Generic;
+using Ms.Medico.Aplicacion.Servicios;
+using dominio = Ms.Medico.Dominio.Entidades;
 
 namespace Ms.Medico.Api.Controllers
 {
+    [ApiController]
     public class MedicoController : Controller
     {
-        // GET: MedicoController
-        public ActionResult Index()
+        private readonly IMedicoService _service;
+
+
+        public MedicoController(IMedicoService service)
         {
-            return View();
+            _service = service;
         }
 
-        // GET: MedicoController/Details/5
-        public ActionResult Details(int id)
+        [HttpGet(RouteMedico.GetAll)]
+        public IEnumerable<dominio.Medico> ListarServicios()
         {
-            return View();
+
+            var listaServicios = _service.ListarMedico();
+            return listaServicios;
         }
 
-        // GET: MedicoController/Create
-        public ActionResult Create()
+
+
+        [HttpGet(RouteMedico.GetById)]
+        public dominio.Medico BuscarCliente(int id)
         {
-            return View();
+            var objCliente = _service.BuscarPorId(id);
+
+            return objCliente;
+        }
+        [HttpPost(RouteMedico.Create)]
+        public ActionResult<dominio.Medico> CrearMedico([FromBody] dominio.Medico Servicios)
+        {
+            _service.Registrar(Servicios);
+
+            return Ok();
         }
 
-        // POST: MedicoController/Create
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+
+        [HttpPut(RouteMedico.Update)]
+        public ActionResult<dominio.Medico> ModificarMedico([FromBody] dominio.Medico servicios)
         {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
+
+
+           var obj= _service.Modificar(servicios);
+
+
+
+            //if (objServicio != null)
+            //{
+            //    objServicio. = paciente._id;
+            //    objServicio.idPac = paciente.idPac;
+            //    objServicio.Nombre = paciente.Nombre;
+            //    objServicio.apepa = paciente.apepa;
+            //    objServicio.apema = paciente.apema;
+            //    objServicio.edad = paciente.edad;
+            //    objServicio.seguro = paciente.seguro;
+            //    objServicio.Fecha_ingreso = paciente.Fecha_ingreso;
+
+            //    _service.ReplaceOne(x => x.idPac == objServicio.idPac, objServicio);
+            //}
+
+            return Ok();
         }
 
-        // GET: MedicoController/Edit/5
-        public ActionResult Edit(int id)
+           
+        
+
+
+
+
+    [HttpDelete(RouteMedico.Delete)]
+        public ActionResult<dominio.Medico> EliminarCliente(int id)
         {
-            return View();
+            _service.Eliminar(id);
+
+            return Ok(id);
         }
 
-        // POST: MedicoController/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: MedicoController/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        // POST: MedicoController/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
     }
 }

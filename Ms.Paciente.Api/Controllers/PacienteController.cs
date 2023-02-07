@@ -1,5 +1,4 @@
-﻿
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using MongoDB.Bson;
 using MongoDB.Driver;
 using static Ms.Paciente.Api.Routes.ApiRoutes;
@@ -11,7 +10,7 @@ using Ms.Paciente.Dominio.Entidades;
 namespace Ms.Paciente.Api.Controllers
 {
     [ApiController]
-    public class PacienteController : ControllerBase
+    public class PacienteController : Controller
     {
         private readonly IPacienteService _service;
 
