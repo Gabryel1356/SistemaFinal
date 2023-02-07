@@ -8,57 +8,54 @@ namespace Ms.Medico.Aplicacion.Servicios
 {
     public class MedicoService : IMedicoService
     {
-        private readonly ICollectionContext<dominio.Medico> _servicios;
-        private readonly IBaseRepository<dominio.Medico> _serviciosT;
+        private readonly ICollectionContext<dominio.Medico> _Medico;
+        private readonly IBaseRepository<dominio.Medico> _MedicoR;
 
-        public MedicoService(ICollectionContext<dominio.Medico> servicio, IBaseRepository<dominio.Medico> serviciosT)
+        public MedicoService(ICollectionContext<dominio.Medico> medico, IBaseRepository<dominio.Medico> medicoT)
         {
-            _servicios = servicio;
-            _serviciosT = serviciosT;
+            _Medico = medico;
+            _MedicoR = medicoT;
         }
-        public List<dominio.Medico> ListarServicios()
+        public List<dominio.Medico> ListarMedico()
         {
             Expression<Func<dominio.Medico, bool>> filter = b => b.esEliminado == false;
-            var items = _servicios.Context().FindAsync(filter, null).Result.ToList();
+            var items = (_Medico.Context().FindAsync(filter, null).Result).ToList();
             return items;
         }
 
 
-        public dominio.Medico BuscarPorId(int id_medico)
+        public dominio.Medico BuscarPorId(int idmedico)
         {
-            Expression<Func<dominio.Medico, bool>> filter = b => b.esEliminado == false && b.id_medico == id_medico;
-            var items = _servicios.Context().FindAsync(filter, null).Result.FirstOrDefault();
+            Expression<Func<dominio.Medico, bool>> filter = b => b.esEliminado == false && b.idmedico == idmedico;
+            var items = (_Medico.Context().FindAsync(filter, null).Result).FirstOrDefault();
             return items;
 
         }
 
-        public bool Registrar(dominio.Medico servicios)
+        public bool Registrar(dominio.Medico medico)
         {
-            servicios.esEliminado = false;
+            medico.esEliminado = false;
 
-            servicios.fechaCreacion = DateTime.Now;
-            servicios.esActivo = true;
-            var R = _serviciosT.InsertOne(servicios);
+            medico.fechaCreacion = DateTime.Now;
+            medico.esActivo = true;
+            var R = _MedicoR.InsertOne(medico);
 
             return true;
         }
 
 
-        public bool Modificar(dominio.Medico servicios)
+        public bool Modificar(dominio.Medico medico)
         {
             throw new NotImplementedException();
         }
 
-        public void Eliminar(int id_medico)
+        public void Eliminar(int idmedico)
         {
-            Expression<Func<dominio.Medico, bool>> filter = b => b.esEliminado == false && b.id_medico == id_medico;
-            var items = _servicios.Context().FindOneAndDeleteAsync(filter, null);
+            Expression<Func<dominio.Medico, bool>> filter = b => b.esEliminado == false && b.idmedico == idmedico;
+            var items = (_Medico.Context().FindOneAndDeleteAsync(filter, null));
 
         }
 
-        public List<dominio.Medico> ListarMedico()
-        {
-            throw new NotImplementedException();
-        }
+
     }
 }

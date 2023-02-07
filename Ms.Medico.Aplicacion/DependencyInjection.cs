@@ -7,7 +7,7 @@ using Ms.Medico.Aplicacion.Servicios;
 using Ms.Medico.Infraestructura;
 using dominio = Ms.Medico.Dominio.Entidades;
 
-namespace Ms.Servicios.Aplicacion
+namespace Ms.Medico.Aplicacion
 {
     public static class DependencyInjection
     {
@@ -28,11 +28,7 @@ namespace Ms.Servicios.Aplicacion
             services.TryAddScoped<IBaseRepository<dominio.Medico>>(x => new BaseRepository<dominio.Medico>(x.GetService<IDbContext>()));
 
 
-
             services.AddScoped<IMedicoService, MedicoService>();
-
-
-
 
             return services;
         }

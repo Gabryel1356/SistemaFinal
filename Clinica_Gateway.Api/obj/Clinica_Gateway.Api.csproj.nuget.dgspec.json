@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rosalin Mantari\\Desktop\\Tabajo_B\\SistemaClinica_del_Dr.Matalozano\\Clinica_Gateway.Api\\Clinica_Gateway.Api.csproj": {}
+    "D:\\prueba\\Nueva carpeta\\SistemaFinal\\Clinica_Gateway.Api\\Clinica_Gateway.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rosalin Mantari\\Desktop\\Tabajo_B\\SistemaClinica_del_Dr.Matalozano\\Clinica_Gateway.Api\\Clinica_Gateway.Api.csproj": {
+    "D:\\prueba\\Nueva carpeta\\SistemaFinal\\Clinica_Gateway.Api\\Clinica_Gateway.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rosalin Mantari\\Desktop\\Tabajo_B\\SistemaClinica_del_Dr.Matalozano\\Clinica_Gateway.Api\\Clinica_Gateway.Api.csproj",
+        "projectUniqueName": "D:\\prueba\\Nueva carpeta\\SistemaFinal\\Clinica_Gateway.Api\\Clinica_Gateway.Api.csproj",
         "projectName": "Clinica_Gateway.Api",
-        "projectPath": "C:\\Users\\Rosalin Mantari\\Desktop\\Tabajo_B\\SistemaClinica_del_Dr.Matalozano\\Clinica_Gateway.Api\\Clinica_Gateway.Api.csproj",
-        "packagesPath": "C:\\Users\\Rosalin Mantari\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rosalin Mantari\\Desktop\\Tabajo_B\\SistemaClinica_del_Dr.Matalozano\\Clinica_Gateway.Api\\obj\\",
+        "projectPath": "D:\\prueba\\Nueva carpeta\\SistemaFinal\\Clinica_Gateway.Api\\Clinica_Gateway.Api.csproj",
+        "packagesPath": "C:\\Users\\Dynabook\\.nuget\\packages\\",
+        "outputPath": "D:\\prueba\\Nueva carpeta\\SistemaFinal\\Clinica_Gateway.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Rosalin Mantari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dynabook\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Rosalin Mantari\\Desktop\\Tabajo_B\\SistemaClinica_del_Dr.Matalozano\\Clinica_Gateway.Aplicacion\\Clinica_Gateway.Aplicacion.csproj": {
-                "projectPath": "C:\\Users\\Rosalin Mantari\\Desktop\\Tabajo_B\\SistemaClinica_del_Dr.Matalozano\\Clinica_Gateway.Aplicacion\\Clinica_Gateway.Aplicacion.csproj"
+              "D:\\prueba\\Nueva carpeta\\SistemaFinal\\Clinica_Gateway.Aplicacion\\Clinica_Gateway.Aplicacion.csproj": {
+                "projectPath": "D:\\prueba\\Nueva carpeta\\SistemaFinal\\Clinica_Gateway.Aplicacion\\Clinica_Gateway.Aplicacion.csproj"
               }
             }
           }
@@ -72,24 +72,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Rosalin Mantari\\Desktop\\Tabajo_B\\SistemaClinica_del_Dr.Matalozano\\Clinica_Gateway.Aplicacion\\Clinica_Gateway.Aplicacion.csproj": {
+    "D:\\prueba\\Nueva carpeta\\SistemaFinal\\Clinica_Gateway.Aplicacion\\Clinica_Gateway.Aplicacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rosalin Mantari\\Desktop\\Tabajo_B\\SistemaClinica_del_Dr.Matalozano\\Clinica_Gateway.Aplicacion\\Clinica_Gateway.Aplicacion.csproj",
+        "projectUniqueName": "D:\\prueba\\Nueva carpeta\\SistemaFinal\\Clinica_Gateway.Aplicacion\\Clinica_Gateway.Aplicacion.csproj",
         "projectName": "Clinica_Gateway.Aplicacion",
-        "projectPath": "C:\\Users\\Rosalin Mantari\\Desktop\\Tabajo_B\\SistemaClinica_del_Dr.Matalozano\\Clinica_Gateway.Aplicacion\\Clinica_Gateway.Aplicacion.csproj",
-        "packagesPath": "C:\\Users\\Rosalin Mantari\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rosalin Mantari\\Desktop\\Tabajo_B\\SistemaClinica_del_Dr.Matalozano\\Clinica_Gateway.Aplicacion\\obj\\",
+        "projectPath": "D:\\prueba\\Nueva carpeta\\SistemaFinal\\Clinica_Gateway.Aplicacion\\Clinica_Gateway.Aplicacion.csproj",
+        "packagesPath": "C:\\Users\\Dynabook\\.nuget\\packages\\",
+        "outputPath": "D:\\prueba\\Nueva carpeta\\SistemaFinal\\Clinica_Gateway.Aplicacion\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Rosalin Mantari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dynabook\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -131,7 +131,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
