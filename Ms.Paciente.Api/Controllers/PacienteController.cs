@@ -6,6 +6,7 @@ using static Ms.Paciente.Api.Routes.ApiRoutes;
 using System.Collections.Generic;
 using Ms.Paciente.Aplicacion.Paciente;
 using dominio = Ms.Paciente.Dominio.Entidades;
+using Ms.Paciente.Dominio.Entidades;
 
 namespace Ms.Paciente.Api.Controllers
 {
@@ -20,6 +21,7 @@ namespace Ms.Paciente.Api.Controllers
             _service = service;
         }
 
+
         [HttpGet(RoutePaciente.GetAll)]
         public IEnumerable<dominio.Paciente> ListarServicios()
         {
@@ -30,60 +32,76 @@ namespace Ms.Paciente.Api.Controllers
 
 
 
+
+
         [HttpGet(RoutePaciente.GetById)]
         public dominio.Paciente BuscarCliente(int id)
         {
-            var objCliente = _service.BuscarPorId(id);
 
-            return objCliente;
+            var objPaciente = _service.BuscarPorId(id);
+
+            return objPaciente;
         }
-        [HttpPost(RoutePaciente.Create)]
-        public ActionResult<dominio.Paciente> CrearPaciente([FromBody] dominio.Paciente Servicios)
-        {
-            _service.Registrar(Servicios);
 
-            return Ok();
+
+        [HttpPost(RoutePaciente.Create)]
+        public ActionResult<dominio.Paciente> CrearPaciente([FromBody] dominio.Paciente Paciente)
+        {
+            try
+            {
+
+
+                _service.Registrar(Paciente);
+
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+
+
+
         }
 
 
         [HttpPut(RoutePaciente.Update)]
-        public ActionResult<dominio.Paciente> ModificarPaciente([FromBody] dominio.Paciente servicios)
+        public  ActionResult<dominio.Paciente> Modificar([FromBody] dominio.Paciente paciente)
         {
+            try
+            {
 
+                var result = _service.Modificar(paciente);
 
-           var obj= _service.Modificar(servicios);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
 
-
-
-            //if (objServicio != null)
-            //{
-            //    objServicio. = paciente._id;
-            //    objServicio.idPac = paciente.idPac;
-            //    objServicio.Nombre = paciente.Nombre;
-            //    objServicio.apepa = paciente.apepa;
-            //    objServicio.apema = paciente.apema;
-            //    objServicio.edad = paciente.edad;
-            //    objServicio.seguro = paciente.seguro;
-            //    objServicio.Fecha_ingreso = paciente.Fecha_ingreso;
-
-            //    _service.ReplaceOne(x => x.idPac == objServicio.idPac, objServicio);
-            //}
-
-            return Ok();
+           
         }
 
            
         
-
-
-
-
     [HttpDelete(RoutePaciente.Delete)]
         public ActionResult<dominio.Paciente> EliminarCliente(int id)
         {
-            _service.Eliminar(id);
+            try
+            {
 
-            return Ok(id);
+                _service.Eliminar(id);
+
+                return Ok(id);
+
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+
+           
         }
 
     }

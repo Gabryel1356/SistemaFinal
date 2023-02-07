@@ -1,6 +1,6 @@
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Paciente.Api\bin\Debug\net6.0\Ms.Paciente.Api.exe
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Paciente.Api\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Paciente.Api\bin\Debug\net6.0\appsettings.json
-C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Paciente.Api\bin\Debug\net6.0\Ms.Paciente.Api.exe
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Paciente.Api\bin\Debug\net6.0\Ms.Paciente.Api.deps.json
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Paciente.Api\bin\Debug\net6.0\Ms.Paciente.Api.runtimeconfig.json
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.Paciente.Api\bin\Debug\net6.0\Ms.Paciente.Api.dll

@@ -11,7 +11,7 @@ namespace Ms.Paciente.Dominio.Entidades
     {
 
         public int idPac { get; set; }
-        public int dni { get; set; }
+        public string dni { get; set; }
 
         public string Nombre { get; set; }
 
