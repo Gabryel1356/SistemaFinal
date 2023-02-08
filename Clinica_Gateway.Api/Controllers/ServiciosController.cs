@@ -1,11 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using static Clinica_Gateway.Api.Routes.ApiRoutes;
+using static Clinica_Gateway.Api.Routes.Class;
 using Servicios = Clinica_Gateway.Aplicacion.ServiciosClient;
 using Clinica_Gateway.Aplicacion.Pacientes.Request;
-
-
+using Clinica_Gateway.Aplicacion.ServiciosClient;
 
 namespace Clinica_Gateway.Api.Controllers
 {
@@ -16,11 +15,9 @@ namespace Clinica_Gateway.Api.Controllers
     {
         private readonly Servicios.Client _ServiciosClient;
 
-
-
-        public ServiciosController(Servicios.Client ServiciosClient)
+        public ServiciosController(Client serviciosClient)
         {
-            _ServiciosClient = ServiciosClient;
+            _ServiciosClient = serviciosClient;
         }
 
         [HttpGet(RouteServicios.GetAll)]

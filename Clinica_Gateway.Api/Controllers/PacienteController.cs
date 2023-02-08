@@ -29,7 +29,18 @@ namespace Clinica_Gateway.Api.Controllers
         }
 
 
-         
+        [HttpPost(RoutePaciente.RegistrarPaciente)]
+        public async void RegistrarPaciente(RegistrarPacienteRequest request)
+        {
+
+       
+            var Pacienete = await _pacientesClient.ApiV1PacienteAsync(request.idPac);
+
+
+            var consulta = _pacientesClient.ApiV1PacienteUpdateAsync(Pacienete);
+
+        }
+
 
     }
 

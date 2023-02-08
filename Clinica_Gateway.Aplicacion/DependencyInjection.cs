@@ -15,20 +15,22 @@ namespace Clinica_Gateway.Aplicacion
     public static class DependencyInjection
     {
 
-        public static IServiceCollection AddAplicacion(this IServiceCollection services, IConfiguration configuration)
+        public static IServiceCollection AddAplicacionPaciente(this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddClientes(configuration);
+            services.AddPacientes(configuration);
 
-            services.AddServicios(configuration);
+        
 
             return services;
         }
     
-        public static IServiceCollection AddClientes(this IServiceCollection services, IConfiguration configuration)
+        public static IServiceCollection AddPacientes(this IServiceCollection services, IConfiguration configuration)
         {
 
             var msSettings = new ClientSettings();
             configuration.Bind(nameof(ClientSettings), msSettings);
+
+
 
             #region Cliente Ms Paciente
 
@@ -39,31 +41,32 @@ namespace Clinica_Gateway.Aplicacion
 
             #endregion
 
-            services.AddTransient<PacienteClient.Client>();
+            services.AddTransient< PacienteClient.Client>();
+
+
+
+
 
             return services;
         }
 
 
-        public static IServiceCollection AddServicios(this IServiceCollection services, IConfiguration configuration)
-        {
 
-            var msSettings = new ClientSettings();
-            configuration.Bind(nameof(ClientSettings), msSettings);
 
-            #region Cliente Ms Servicios
 
-            services.AddHttpClient("Ms_Servicios", client =>
-            {
-                client.BaseAddress = new Uri(msSettings.ServiciosUrl);
-            });
 
-            #endregion
 
-            services.AddTransient<ServiciosClient.Client>();
 
-            return services;
-        }
+
+
+
+
+
+
+
+
+
+
 
 
 

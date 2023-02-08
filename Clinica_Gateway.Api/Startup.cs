@@ -20,6 +20,7 @@ namespace Clinica_Gateway.Api
 
         public IConfiguration Configuration { get; }
 
+      
    
         public void ConfigureServices(IServiceCollection services)
         {
@@ -29,9 +30,10 @@ namespace Clinica_Gateway.Api
        
             services.AddSwaggerGen();
 
-            services.AddAplicacion(Configuration);
+            services.AddPacientes(Configuration);
 
-            services.AddServicios(Configuration);
+
+          
         }
 
       
