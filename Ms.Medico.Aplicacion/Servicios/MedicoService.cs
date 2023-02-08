@@ -43,11 +43,39 @@ namespace Ms.Medico.Aplicacion.Servicios
             return true;
         }
 
-
-        public bool Modificar(dominio.Medico medico)
+        public bool Modificar(dominio.Medico Medico)
         {
-            throw new NotImplementedException();
+
+
+            Medico.esEliminado = false;
+            Medico.fechaModificacion = DateTime.Now;
+            Medico.esActivo = true;
+
+
+            var filter = Builders<dominio.Medico>.Filter.Eq(c => c.idmedico, Medico.idmedico);
+
+            var update = Builders<dominio.Medico>.Update
+
+                .Set(c => c.idmedico, Medico.idmedico)
+                .Set(c => c.DNI, Medico.DNI)
+                .Set(c => c.Nombres, Medico.Nombres)
+                .Set(c => c.ApePa, Medico.ApePa)
+                .Set(c => c.ApeMa, Medico.ApeMa)
+                .Set(c => c.idespecialidad, Medico.idespecialidad);
+              
+
+            var result = _MedicoR.UpdateOneAsync(filter, update);
+
+
+
+            return true;
         }
+
+
+
+
+
+
 
         public void Eliminar(int idmedico)
         {

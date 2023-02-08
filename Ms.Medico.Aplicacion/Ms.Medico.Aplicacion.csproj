@@ -6,7 +6,17 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
+	<ItemGroup>
+		<Compile Remove="Medico\Read\**" />
+		<Compile Remove="Medico\Write\**" />
+		<EmbeddedResource Remove="Medico\Read\**" />
+		<EmbeddedResource Remove="Medico\Write\**" />
+		<None Remove="Medico\Read\**" />
+		<None Remove="Medico\Write\**" />
+	</ItemGroup>
+
+
+	<ItemGroup>
     <ProjectReference Include="..\Ms.Medico.Dominio\Ms.Medico.Dominio.csproj" />
     <ProjectReference Include="..\Ms.Medico.Infraestructura\Ms.Medico.Infraestructura.csproj" />
   </ItemGroup>

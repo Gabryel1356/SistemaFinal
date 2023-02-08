@@ -13,14 +13,11 @@ namespace Ms.Medico.Dominio.Entidades
 
 
         public int idmedico { get; set; }
-        public int DNI { get; set; }
-        public int Nombres { get; set; }
-        public int ApePa { get; set; }
-        public int ApeMa { get; set; }
-        public int idespecialidad { get; set; }
-
-
-
+        public string DNI { get; set; }
+        public string Nombres { get; set; }
+        public string ApePa { get; set; }
+        public string ApeMa { get; set; }
+        public string idespecialidad { get; set; }
 
 
     }

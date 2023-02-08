@@ -10,4 +10,17 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Ms.GenerarConsulta.Aplicacion\Ms.GenerarConsulta.Aplicacion.csproj" />
+    <ProjectReference Include="..\Ms.GenerarConsulta.Dominio\Ms.GenerarConsulta.Dominio.csproj" />
+    <ProjectReference Include="..\Ms.GenerarConsulta.Infraestructura\Ms.GenerarConsulta.Infraestructura.csproj" />
+  </ItemGroup>
+	<ItemGroup>
+		<Content Update="appsettings.Development.json">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Update="appsettings.json">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
 </Project>

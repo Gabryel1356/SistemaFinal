@@ -1,89 +1,104 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using MongoDB.Bson;
+using MongoDB.Driver;
+using static Ms.GenerarConsulta.Api.Routes.ApiRoutes;
+using System.Collections.Generic;
+using Ms.GenerarConsulta.Aplicacion.GenerarConsulta;
+using dominio = Ms.GenerarConsulta.Dominio.Entidades;
+using Ms.GenerarConsulta.Dominio.Entidades;
 
 namespace Ms.GenerarConsulta.Api.Controllers
 {
     [ApiController]
-
     public class GenerarConsultasController : Controller
     {
-        
+        private readonly IGenerarConsultaService _service;
 
 
-
-
-        public ActionResult Index()
+        public GenerarConsultasController(IGenerarConsultaService service)
         {
-            return View();
+            _service = service;
         }
 
-        // GET: GenerarConsultasController/Details/5
-        public ActionResult Details(int id)
+
+        [HttpGet(RouteGenerarConsulta.GetAll)]
+        public IEnumerable<dominio.GenerarConsulta> ListarConsultas()
         {
-            return View();
+
+            var ListarConsultas = _service.ListarConsultas();
+            return ListarConsultas;
         }
 
-        // GET: GenerarConsultasController/Create
-        public ActionResult Create()
+
+        [HttpGet(RouteGenerarConsulta.GetById)]
+        public dominio.GenerarConsulta BuscarCliente(int id)
         {
-            return View();
+
+            var objPaciente = _service.BuscarPorId(id);
+
+            return objPaciente;
         }
 
-        // POST: GenerarConsultasController/Create
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
 
-        // GET: GenerarConsultasController/Edit/5
-        public ActionResult Edit(int id)
-        {
-            return View();
-        }
-
-        // POST: GenerarConsultasController/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        [HttpPost(RouteGenerarConsulta.Create)]
+        public ActionResult<dominio.GenerarConsulta> CrearPaciente([FromBody] dominio.GenerarConsulta Consultas)
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+
+
+                _service.Registrar(Consultas);
+
+                return Ok();
             }
-            catch
+            catch (Exception ex)
             {
-                return View();
+                return BadRequest(ex.Message);
             }
+
+
+
         }
 
-        // GET: GenerarConsultasController/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
 
-        // POST: GenerarConsultasController/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
+        [HttpPut(RouteGenerarConsulta.Update)]
+        public ActionResult<dominio.GenerarConsulta> Modificar([FromBody] dominio.GenerarConsulta Consultas)
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+
+                var result = _service.Modificar(Consultas);
+
+                return Ok();
             }
-            catch
+            catch (Exception ex)
             {
-                return View();
+                return BadRequest(ex.Message);
             }
+
+
         }
+
+
+
+        [HttpDelete(RouteGenerarConsulta.Delete)]
+        public ActionResult<dominio.GenerarConsulta> EliminarCliente(int id)
+        {
+            try
+            {
+
+                _service.Eliminar(id);
+
+                return Ok(id);
+
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+
+
+        }
+
     }
 }

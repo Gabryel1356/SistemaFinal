@@ -6,4 +6,22 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+
+	<ItemGroup>
+		<Compile Remove="GenerarConsulta\Read\**" />
+		<Compile Remove="GenerarConsulta\Write\**" />
+		<EmbeddedResource Remove="GenerarConsulta\Read\**" />
+		<EmbeddedResource Remove="GenerarConsulta\Write\**" />
+		<None Remove="GenerarConsulta\Read\**" />
+		<None Remove="GenerarConsulta\Write\**" />
+	</ItemGroup>
+
+
+
+
+	<ItemGroup>
+    <ProjectReference Include="..\Ms.GenerarConsulta.Dominio\Ms.GenerarConsulta.Dominio.csproj" />
+    <ProjectReference Include="..\Ms.GenerarConsulta.Infraestructura\Ms.GenerarConsulta.Infraestructura.csproj" />
+  </ItemGroup>
+
 </Project>

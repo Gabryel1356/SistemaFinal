@@ -1,31 +1,58 @@
 ﻿{
-  "$schema": "https://json.schemastore.org/launchsettings.json",
+
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "ancmHostingModel": "InProcess"
+    }
+  },
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:37596",
-      "sslPort": 44393
+      "applicationUrl": "http://localhost:20206/",
+      "sslPort": 0
     }
-  },
-  "profiles": {
-    "Ms.GenerarConsulta.Api": {
-      "commandName": "Project",
-      "dotnetRunMessages": true,
-      "launchBrowser": true,
-      "launchUrl": "swagger",
-      "applicationUrl": "https://localhost:7066;http://localhost:5221",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      }
-    },
-    "IIS Express": {
-      "commandName": "IISExpress",
-      "launchBrowser": true,
-      "launchUrl": "swagger",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      }
-    }
+
+
+
+
+
+
+
+
+
+    //"$schema": "https://json.schemastore.org/launchsettings.json",
+    //"iisSettings": {
+    //  "windowsAuthentication": false,
+    //  "anonymousAuthentication": true,
+    //  "iisExpress": {
+    //    "applicationUrl": "http://localhost:37596",
+    //    "sslPort": 44393
+    //  }
+    //},
+    //"profiles": {
+    //  "Ms.GenerarConsulta.Api": {
+    //    "commandName": "Project",
+    //    "dotnetRunMessages": true,
+    //    "launchBrowser": true,
+    //    "launchUrl": "swagger",
+    //    "applicationUrl": "https://localhost:7066;http://localhost:5221",
+    //    "environmentVariables": {
+    //      "ASPNETCORE_ENVIRONMENT": "Development"
+    //    }
+    //  },
+    //  "IIS Express": {
+    //    "commandName": "IISExpress",
+    //    "launchBrowser": true,
+    //    "launchUrl": "swagger",
+    //    "environmentVariables": {
+    //      "ASPNETCORE_ENVIRONMENT": "Development"
+    //    }
+    //  }
+    //}
   }
-}

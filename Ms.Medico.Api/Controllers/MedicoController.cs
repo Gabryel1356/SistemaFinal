@@ -20,69 +20,82 @@ namespace Ms.Medico.Api.Controllers
         }
 
         [HttpGet(RouteMedico.GetAll)]
-        public IEnumerable<dominio.Medico> ListarServicios()
+        public IEnumerable<dominio.Medico> ListarMedico()
         {
 
-            var listaServicios = _service.ListarMedico();
-            return listaServicios;
+            var ListarMedico = _service.ListarMedico();
+            return ListarMedico;
         }
-
 
 
         [HttpGet(RouteMedico.GetById)]
         public dominio.Medico BuscarCliente(int id)
         {
-            var objCliente = _service.BuscarPorId(id);
 
-            return objCliente;
+            var objPaciente = _service.BuscarPorId(id);
+
+            return objPaciente;
         }
-        [HttpPost(RouteMedico.Create)]
-        public ActionResult<dominio.Medico> CrearMedico([FromBody] dominio.Medico Servicios)
-        {
-            _service.Registrar(Servicios);
 
-            return Ok();
+
+        [HttpPost(RouteMedico.Create)]
+        public ActionResult<dominio.Medico> CrearPaciente([FromBody] dominio.Medico Paciente)
+        {
+            try
+            {
+
+
+                _service.Registrar(Paciente);
+
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+
+
+
         }
 
 
         [HttpPut(RouteMedico.Update)]
-        public ActionResult<dominio.Medico> ModificarMedico([FromBody] dominio.Medico servicios)
+        public ActionResult<dominio.Medico> Modificar([FromBody] dominio.Medico paciente)
         {
+            try
+            {
+
+                var result = _service.Modificar(paciente);
+
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
 
 
-           var obj= _service.Modificar(servicios);
-
-
-
-            //if (objServicio != null)
-            //{
-            //    objServicio. = paciente._id;
-            //    objServicio.idPac = paciente.idPac;
-            //    objServicio.Nombre = paciente.Nombre;
-            //    objServicio.apepa = paciente.apepa;
-            //    objServicio.apema = paciente.apema;
-            //    objServicio.edad = paciente.edad;
-            //    objServicio.seguro = paciente.seguro;
-            //    objServicio.Fecha_ingreso = paciente.Fecha_ingreso;
-
-            //    _service.ReplaceOne(x => x.idPac == objServicio.idPac, objServicio);
-            //}
-
-            return Ok();
         }
 
-           
-        
 
 
-
-
-    [HttpDelete(RouteMedico.Delete)]
+        [HttpDelete(RouteMedico.Delete)]
         public ActionResult<dominio.Medico> EliminarCliente(int id)
         {
-            _service.Eliminar(id);
+            try
+            {
 
-            return Ok(id);
+                _service.Eliminar(id);
+
+                return Ok(id);
+
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+
+
         }
 
     }

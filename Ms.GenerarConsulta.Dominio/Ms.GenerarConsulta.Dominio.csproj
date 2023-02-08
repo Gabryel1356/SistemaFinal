@@ -6,4 +6,26 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Bson" Version="2.19.0" />
+    <PackageReference Include="MongoDB.Driver" Version="2.19.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ms.GenerarConsulta.Infraestructura\Ms.GenerarConsulta.Infraestructura.csproj" />
+  </ItemGroup>
+
+
+
+	<ItemGroup>
+		<Compile Remove="Common\**" />
+		<Compile Remove="Repositorios\**" />
+		<Compile Remove="GenerarConsulta\**" />
+		<EmbeddedResource Remove="Common\**" />
+		<EmbeddedResource Remove="Repositorios\**" />
+		<EmbeddedResource Remove="GenerarConsulta\**" />
+		<None Remove="Common\**" />
+		<None Remove="Repositorios\**" />
+		<None Remove="GenerarConsulta\**" />
+	</ItemGroup>
 </Project>

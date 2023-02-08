@@ -1,11 +1,14 @@
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.GenerarConsulta.Dominio\bin\Debug\net6.0\Ms.GenerarConsulta.Dominio.deps.json
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.GenerarConsulta.Dominio\bin\Debug\net6.0\Ms.GenerarConsulta.Dominio.dll
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.GenerarConsulta.Dominio\bin\Debug\net6.0\Ms.GenerarConsulta.Dominio.pdb
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.GenerarConsulta.Dominio\bin\Debug\net6.0\Ms.GenerarConsulta.Infraestructura.dll
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.GenerarConsulta.Dominio\bin\Debug\net6.0\Ms.GenerarConsulta.Infraestructura.pdb
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.GenerarConsulta.Dominio\obj\Debug\net6.0\Ms.GenerarConsulta.Dominio.csproj.AssemblyReference.cache
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.GenerarConsulta.Dominio\obj\Debug\net6.0\Ms.GenerarConsulta.Dominio.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.GenerarConsulta.Dominio\obj\Debug\net6.0\Ms.GenerarConsulta.Dominio.AssemblyInfoInputs.cache
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.GenerarConsulta.Dominio\obj\Debug\net6.0\Ms.GenerarConsulta.Dominio.AssemblyInfo.cs
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.GenerarConsulta.Dominio\obj\Debug\net6.0\Ms.GenerarConsulta.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.GenerarConsulta.Dominio\obj\Debug\net6.0\Ms.GenerarConsulta.Dominio.csproj.CopyComplete
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.GenerarConsulta.Dominio\obj\Debug\net6.0\Ms.GenerarConsulta.Dominio.dll
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.GenerarConsulta.Dominio\obj\Debug\net6.0\refint\Ms.GenerarConsulta.Dominio.dll
 C:\Users\Rosalin Mantari\Desktop\Tabajo_B\SistemaClinica_del_Dr.Matalozano\Ms.GenerarConsulta.Dominio\obj\Debug\net6.0\Ms.GenerarConsulta.Dominio.pdb

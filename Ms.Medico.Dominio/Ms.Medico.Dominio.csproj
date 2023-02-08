@@ -15,4 +15,15 @@
     <ProjectReference Include="..\Ms.Medico.Infraestructura\Ms.Medico.Infraestructura.csproj" />
   </ItemGroup>
 
+	<ItemGroup>
+		<Compile Remove="Common\**" />
+		<Compile Remove="Repositorios\**" />
+		<Compile Remove="Medico\**" />
+		<EmbeddedResource Remove="Common\**" />
+		<EmbeddedResource Remove="Repositorios\**" />
+		<EmbeddedResource Remove="Medico\**" />
+		<None Remove="Common\**" />
+		<None Remove="Repositorios\**" />
+		<None Remove="Medico\**" />
+	</ItemGroup>
 </Project>
