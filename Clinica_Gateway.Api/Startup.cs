@@ -7,10 +7,6 @@ using Microsoft.Extensions.Hosting;
 using System;
 using Clinica_Gateway.Aplicacion;
 
-
-
-
-
 namespace Clinica_Gateway.Api
 {
     public class Startup
@@ -34,6 +30,8 @@ namespace Clinica_Gateway.Api
             services.AddSwaggerGen();
 
             services.AddAplicacion(Configuration);
+
+            services.AddServicios(Configuration);
         }
 
       

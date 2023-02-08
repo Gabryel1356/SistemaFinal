@@ -21,6 +21,8 @@
 
         }
 
+
+
         public static class RouteGenerarConsulta
         {
             // Read
@@ -30,5 +32,24 @@
             public const string RegistrarPaciente = Base + "/´Consulta/creates";
 
         }
+
+
+        public static class RouteServicios
+        {
+            public const string GetAll = Base + "/Servicios/all";
+            public const string GetById = Base + "/Servicios/{id}";
+
+
+            public const string Create = Base + "/Servicios/create";
+            public const string Update = Base + "/Servicios/update";
+            public const string Delete = Base + "/Servicios/delete";
+
+
+            public const string RegistrarServicio = Base + "/Servicios/create";
+
+        }
+
+
+
     }
 }

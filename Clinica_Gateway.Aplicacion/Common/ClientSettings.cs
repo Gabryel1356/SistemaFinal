@@ -5,5 +5,8 @@ namespace Clinica_Gateway.Aplicacion.Common
     {
 
         public string PacienteUrl { get; set; }
+        public string ServiciosUrl { get; set; }
+
+
     }
 }
