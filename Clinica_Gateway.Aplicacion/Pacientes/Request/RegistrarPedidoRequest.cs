@@ -9,5 +9,7 @@ namespace Clinica_Gateway.Aplicacion.Pacientes.Request
     public class RegistrarPacienteRequest
     {
         public int idPac { get; set; }
+
+        public int idServicios { get; set; }
     }
 }

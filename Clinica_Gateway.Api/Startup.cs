@@ -32,6 +32,7 @@ namespace Clinica_Gateway.Api
 
             services.AddPacientes(Configuration);
 
+            services.AddServicios(Configuration);
 
           
         }
@@ -53,6 +54,7 @@ namespace Clinica_Gateway.Api
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+
                 endpoints.MapGet("/",
                    async context =>
                    {

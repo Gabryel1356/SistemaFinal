@@ -34,11 +34,9 @@
         }
 
 
-
-
         public static class RouteServicios
         {
-            public const string GetAll = Base + "/Servicios/all";
+            public const string GetAl = Base + "/Servicios/all";
             public const string GetById = Base + "/Servicios/{id}";
 
 
@@ -50,6 +48,10 @@
             public const string RegistrarServicio = Base + "/Servicios/create";
 
         }
+
+
+
+
 
 
 

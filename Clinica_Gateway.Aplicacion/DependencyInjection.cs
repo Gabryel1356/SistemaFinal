@@ -56,6 +56,42 @@ namespace Clinica_Gateway.Aplicacion
 
 
 
+        public static IServiceCollection AddAplicacionServicios(this IServiceCollection services, IConfiguration configuration)
+        {
+            services.AddServicios(configuration);
+
+
+
+            return services;
+        }
+
+
+
+
+        public static IServiceCollection AddServicios(this IServiceCollection services, IConfiguration configuration)
+        {
+
+            var msSettings = new ClientSettings();
+            configuration.Bind(nameof(ClientSettings), msSettings);
+
+
+            #region Cliente Ms Servicios
+
+            services.AddHttpClient("Ms_Servicios", client =>
+            {
+                client.BaseAddress = new Uri(msSettings.ServiciosUrl);
+            });
+
+            #endregion
+
+            services.AddTransient<ServiciosClient.IClient, ServiciosClient.Client>();
+
+
+
+            return services;
+        }
+
+
 
 
 

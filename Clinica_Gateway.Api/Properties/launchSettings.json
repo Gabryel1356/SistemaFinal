@@ -1,4 +1,36 @@
 {
+
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:60861",
+      "sslPort": 44366
+    }
+  },
+  "profiles": {
+    "Ms.Servicios.Api": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7222;http://localhost:5136",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+
+
   //"profiles": {
   //  "IIS Express": {
   //    "commandName": "IISExpress",
@@ -7,46 +39,16 @@
   //      "ASPNETCORE_ENVIRONMENT": "Development"
   //    },
   //    "ancmHostingModel": "InProcess"
-  //  },
-  //  "Perfil 1": {
-  //    "commandName": "IISExpress",
-  //    "launchBrowser": true,
-  //    "environmentVariables": {
-  //      "ASPNETCORE_ENVIRONMENT": "Development"
-  //    },
-  //    "ancmHostingModel": "InProcess"
-  //  },
-  //  "Perfil 2": {
-  //    "commandName": "Executable"
   //  }
   //},
   //"iisSettings": {
   //  "windowsAuthentication": false,
   //  "anonymousAuthentication": true,
   //  "iisExpress": {
-  //    "applicationUrl": "http://localhost:20230/",
+  //    "applicationUrl": "http://localhost:7248",
   //    "sslPort": 0
   //  }
   //}
-
-  "profiles": {
-    "IIS Express": {
-      "commandName": "IISExpress",
-      "launchBrowser": true,
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      },
-      "ancmHostingModel": "InProcess"
-    }
-  },
-  "iisSettings": {
-    "windowsAuthentication": false,
-    "anonymousAuthentication": true,
-    "iisExpress": {
-      "applicationUrl": "http://localhost:20359/",
-      "sslPort": 0
-    }
-  }
 
 
 
